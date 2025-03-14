@@ -9,3 +9,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  height: 10rem;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
