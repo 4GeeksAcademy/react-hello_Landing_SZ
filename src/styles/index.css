@@ -10,6 +10,26 @@
 
 */
 
+.jumbotron {
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.jumboTitle {
+  font-size: 6rem;
+}
+
+.card-text {
+  height: 7rem;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 24rem;
+}
+
 .footer {
   display: flex;
   justify-content: center;

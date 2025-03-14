@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
             <a className="navbar-brand" href="#">
-                Navbar
+                GameLibrary
             </a>
             <button
                 className="navbar-toggler"
@@ -20,16 +20,10 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <a className="nav-item nav-link active" href="#">
-                        Home <span className="sr-only">(current)</span>
-                    </a>
-                    <a className="nav-item nav-link" href="#">
-                        Features
+                        Home <span className="sr-only"></span>
                     </a>
                     <a className="nav-item nav-link" href="#">
                         Pricing
-                    </a>
-                    <a className="nav-item nav-link disabled" href="#">
-                        Disabled
                     </a>
                 </div>
             </div>
